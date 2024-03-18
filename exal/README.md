@@ -1,2 +1,0 @@
-# exal
-# exal imagenes
