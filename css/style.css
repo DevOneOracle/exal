@@ -1,0 +1,69 @@
+body{
+    font-family: 'Montserrat',  sans-serif ;
+}
+
+header{
+    background:linear-gradient(90deg,#ffffff 40%,#FF204E);
+    padding: 5px 5px 5px 5px;
+    width: auto;
+    height: 70px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.caja{
+  
+    position: relative;
+    margin: 0 auto;
+  
+}
+nav{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+nav li{
+    display: inline;   
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0204F0
+}
+
+.btn-login{
+    border-radius: 10px;
+    width: 100px;
+    color:#0204F0;
+    background-color: white;
+    padding: 2px;
+    box-shadow: 2px 2px 0px;
+}
+
+@media screen and (max-width:800px) {
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: relative;
+        padding: 0px 40px;
+    }
+    header{
+        background:linear-gradient(#ffffff 60%,#FF204E);
+        padding: 10px 5px 5px 10px;
+        width: auto;
+        height: 130px;
+    }
+}
